@@ -1,0 +1,21 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+*, ::before, ::after {
+  box-sizing: border-box;
+  border-width: 0;
+  border-style: solid;
+  border-color: #e2e8f0;
+}
+
+html, body {
+  margin: 0;
+  padding: 0;
+  width: 100vw;
+  height: 100vh;
+  background-color: #020617 !important;
+  color: #f8fafc !important;
+  font-family: ui-sans-serif, system-ui, sans-serif;
+  overflow: hidden;
+}
